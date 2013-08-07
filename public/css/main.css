@@ -1,0 +1,270 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+    font-family: 'gel';
+    src: url('../fonts/gel.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gem';
+    src: url('../fonts/gem.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h3{
+  font-family: "gem"
+}
+h2.topic-title,h3.topic-title{
+  font-size: 14px;
+  line-height: 22px;
+}
+a:hover{
+  text-decoration: none;
+}
+   
+html,body{
+   	direction: rtl;
+    font-family: Tahoma,Arial;
+}
+.navbar .nav > li{
+    float:right;
+}
+.navbar .nav{
+  float: right;
+}
+.media-object{
+  width:64px;
+  height: 64px;
+}
+.media-body h4{
+	font-size: 12px;
+  line-height: 16px;
+}
+.media-body h4 a{
+  font-size: 12px;
+  color:#000000;
+}
+.media{
+   margin-top:5px;
+}
+.media .topic-title{
+  font-size: 12px;
+  line-height: 20px;
+}
+.carousel-inner .item{
+	height: 314px;
+}
+.carousel-inner .item img{
+	width:100%;
+}
+.latestNews{ color:#ffffff;background:#000000;}
+.latestNews .item{ display:none; }
+.latestNews .active{ display:inline; }
+.thumbnail > img{width:100%;}
+
+.main-content{
+   background:#fff;
+   padding:10px;
+}
+
+.nav-tabs>li, .nav-pills>li{
+   float: right;
+}
+.carousel-caption a{
+  color:#ffffff;
+}
+.topic_body{
+  font-size: 16px;
+  line-height: 28px;
+}
+body {
+	padding-top: 0px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+   background: url("../images/witewall_3.png");
+   background:transparent url(../images/bg.jpg) 50% 0px no-repeat;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:200;
+}
+
+
+.page-header{
+  border:none;
+  padding: 0;
+  margin: 0px 0 0px;
+}
+.page-header h1{
+  margin-top:0;
+}
+.brand{
+
+  margin-left:20px;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.thumbnail{
+  border:none;
+  padding:0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+
+  /*border: 1px solid #e3e3e3;*/
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.nav-tabs > li > a {
+
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+p{
+  text-align:justify;
+}
+
+.row-fluid.articles-grid .span6:nth-child(2n+1){
+  margin-left:0px;
+  } /* fixed bs margin when row-fluid grid*/
+
+  .fixed-top{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    display:inline-block;
+    max-width:370px;
+    background:e0e0e0;
+    barder:1px solid #dfdfdf;
+    z-index:1030;
+ }
+
+ .tab-content .tab-pane{
+    max-height:600px;
+    position:relative;
+    overflow:auto;
+ }
+
+ footer{
+    padding-top:40px;
+    margin-top:40px;
+    border-top:1px solid #dedede;
+ }
+ .related-projects{
+    padding-top:40px;
+    margin-top:40px;
+
+ }
+.latest-slider a{color:#ffffff;}
+.social img{
+  background:#ffffff;
+}
+.tabbable hr{
+  margin:5px 0;
+}
+.annotations{
+  color:#fff;
+}
+
+.ads-well{
+  text-align: center;
+}
+
+.block{
+  padding:0 0 19px 0;
+}
+.block .block-title{
+  background: url("../images/binding_dark.png") repeat scroll 0 0 transparent;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  width: auto;
+}
+.block .block-title h3{
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0;
+}
+.block .block-content{
+  padding:0 19px;
+  width:auto;
+}
+
+
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+
+
+
+.goto-lyt{
+  overflow: hidden;
+}
+.goto-lyt a{
+  color:#ffffff;
+}
+.goto-lyt .nav{
+  height:144px;margin:0;position :relative;
+}
+
+ /*************** @media ******************/
+ @media (max-width: 940px){
+    .brand {
+      display:block;
+      text-align:center;
+      font-size:26px;
+   }
+}
+
+@media (max-width: 1200px) and (min-width: 940px){
+ .fixed-top{
+   max-width:300px;
+}
+
+
+}
+
+@media (max-width: 940px) and (min-width: 768px){
+ .fixed-top{
+   max-width:225px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

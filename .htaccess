@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+</IfModule>
+
+# For all files not found in the file system, reroute the request to the
+# "index.php" front controller, keeping the query string intact
+
+<IfModule mod_rewrite.c>
+	#RewriteCond %{REQUEST_FILENAME} !-f
+	#RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(public)($|/) - [L]
+	RewriteCond $1 !^(index\.php)
+	RewriteRule . index.php [L]
+	
+	#RewriteRule ^(.*)$ index.php/$1 [L]
+	#RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
